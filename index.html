@@ -29,13 +29,22 @@
             justify-content: space-between;
         }
         .box {
-		            background: #f0f0f0;
-		            padding: 10px;
-		            border-radius: 8px;
-		            width: 48%;
-		            margin: 10px 0;
+            background: #f0f0f0;
+            padding: 10px;
+            border-radius: 8px;
+            width: 48%;
+            margin: 10px 0;
         }
-
+        .profile-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .profile-header img {
+            width: 150px;
+            border-radius: 50%;
+            margin-left: 20px; /* Adjust margin as needed */
+        }
         footer {
             text-align: center;
             color: #777;
@@ -47,14 +56,18 @@
 <body>
     <div class="container">
         <header>
-    <img src="https://raw.githubusercontent.com/gravityrrr/gravityhtml/master/rushil.jpg" alt="Rushil Reddy" style="width: 150px; border-radius: 50%;"> 
-    <h1>Rushil Reddy</h1>
-    <p>Enthusiastic Programmer | Gamer | Fitness</p>
-</header>
+            <div class="profile-header">
+                <div>
+                    <h1>Rushil Reddy</h1>
+                    <p>Enthusiastic Programmer | Gamer | Fitness</p>
+                </div>
+                <img src="https://raw.githubusercontent.com/gravityrrr/gravityhtml/master/rushil.jpg" alt="Rushil Reddy"> 
+            </div>
+        </header>
 
         <section>
             <h2>Profile</h2>
-            <p>Passionate about programming, gaming, and fitness. Developed an attendance tracking app and website for a badminton instituition using HTML and Java with external help from seniors.</p>
+            <p>Passionate about programming, gaming, and fitness. Developed an attendance tracking app and website for a badminton institution using HTML and Java with external help from seniors.</p>
         </section>
 
         <section>
@@ -62,25 +75,26 @@
             <div class="skills">
                 <div class="box">
                     <h3>Programming</h3>
-                    <p>HTML, Java , Android studio</p>
+                    <p>HTML, Java, Android Studio</p>
                 </div>
                 <div class="box">
                     <h3>Tools</h3>
-                    <p>Git, Github, ChatGPT </p>
+                    <p>Git, Github, ChatGPT</p>
                 </div>
             </div>
         </section>
 
-<section>
-    <h2>Projects</h2>
-    <p>
-        <strong>Attendance Tracking App:</strong> Created an app and website to manage attendance for an institution.
-        You can check it out <a href="https://actisportsarena.com/at" target="_blank">here</a>.
-        (Username: rushil | Password: test1@567)
-    </p>
-</section>
-	<h2>Educational qualifications</h2>
-	<p>Graduated 12th standard in New Horizon Gurukul and currently pursuing engineering in RVU(1st yr)</p>
+        <section>
+            <h2>Projects</h2>
+            <p>
+                <strong>Attendance Tracking App:</strong> Created an app and website to manage attendance for an institution.
+                You can check it out <a href="https://actisportsarena.com/at" target="_blank">here</a>.
+                (Username: rushil | Password: test1@567)
+            </p>
+        </section>
+        
+        <h2>Educational Qualifications</h2>
+        <p>Graduated 12th standard in New Horizon Gurukul and currently pursuing engineering in RVU (1st yr).</p>
 
         <section>
             <h2>Interests</h2>
@@ -97,7 +111,7 @@
         </section>
 
         <footer>
-            <p> Rushil Reddy | Contact: rushilravireddybtech24@rvu.edu.in || Ph:6362703819 |&copy; 2024</p>
+            <p>Rushil Reddy | Contact: rushilravireddybtech24@rvu.edu.in || Ph: 6362703819 | &copy; 2024</p>
         </footer>
     </div>
 </body>
